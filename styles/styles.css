@@ -1,0 +1,28 @@
+.ba-container {
+	text-align: center;
+}
+
+.ba-container__title {
+	font-family: Arial, serif;
+	color: #737879;
+}
+
+.ba-row + .ba-row {
+	margin-top: 16px;
+}
+
+[class*="ba-col-"] {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.ba-container__image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.ba-container__image:hover {
+	cursor: pointer;
+	outline: 3px solid #40e0d0;
+}
